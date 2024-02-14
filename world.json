@@ -1,0 +1,158 @@
+{
+    "games" : [
+        {
+            "questions": [
+                {
+                    "question": "Siapa penjelajah Portugis yang pertama kali mencapai India melalui jalur laut?",
+                    "content": [
+                        "Christopher Columbus",
+                        "Ferdinand Magellan",
+                        "Vasco da Gama",
+                        "Marco Polo"
+                    ],
+                    "correct": 2
+                },
+                {
+                    "question": "Perang apa yang terjadi antara tahun 1914 dan 1918?",
+                    "content": [
+                        "Perang Dunia I",
+                        "Perang Dunia II",
+                        "Perang Vietnam",
+                        "Perang Dingin"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Siapa yang menemukan teori relativitas?",
+                    "content": [
+                        "Isaac Newton",
+                        "Albert Einstein",
+                        "Galileo Galilei",
+                        "Nikola Tesla"
+                    ],
+                    "correct": 1
+                },
+                {
+                    "question": "Kapan Revolusi Prancis dimulai?",
+                    "content": [
+                        "1789",
+                        "1800",
+                        "1812",
+                        "1820"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Siapa pemimpin Uni Soviet selama Perang Dingin?",
+                    "content": [
+                        "Vladimir Putin",
+                        "Joseph Stalin",
+                        "Mikhail Gorbachev",
+                        "Nikita Khrushchev"
+                    ],
+                    "correct": 1
+                },
+                {
+                    "question": "Kapan berakhirnya Perang Dunia II?",
+                    "content": [
+                        "1945",
+                        "1946",
+                        "1947",
+                        "1948"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Siapa yang menulis Deklarasi Kemerdekaan Amerika Serikat?",
+                    "content": [
+                        "George Washington",
+                        "Thomas Jefferson",
+                        "Abraham Lincoln",
+                        "Benjamin Franklin"
+                    ],
+                    "correct": 1
+                },
+                {
+                    "question": "Kapan berakhirnya apartheid di Afrika Selatan?",
+                    "content": [
+                        "1980",
+                        "1985",
+                        "1990",
+                        "1995"
+                    ],
+                    "correct": 2
+                },
+                {
+                    "question": "Siapa yang memimpin Revolusi Kuba?",
+                    "content": [
+                        "Che Guevara",
+                        "Fidel Castro",
+                        "Raul Castro",
+                        "Hugo Chavez"
+                    ],
+                    "correct": 1
+                },
+                {
+                    "question": "Kapan berakhirnya Dinasti Qing di Cina?",
+                    "content": [
+                        "1911",
+                        "1912",
+                        "1913",
+                        "1914"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Siapa yang menemukan Amerika?",
+                    "content": [
+                        "Christopher Columbus",
+                        "Amerigo Vespucci",
+                        "Leif Erikson",
+                        "Ferdinand Magellan"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Kapan berakhirnya Perang Dunia I?",
+                    "content": [
+                        "1918",
+                        "1919",
+                        "1920",
+                        "1921"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Siapa yang menemukan teori evolusi melalui seleksi alam?",
+                    "content": [
+                        "Charles Darwin",
+                        "Gregor Mendel",
+                        "Louis Pasteur",
+                        "Alexander Fleming"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Kapan berakhirnya Perang Vietnam?",
+                    "content": [
+                        "1973",
+                        "1974",
+                        "1975",
+                        "1976"
+                    ],
+                    "correct": 2
+                },
+                {
+                    "question": "Siapa yang menemukan hukum gravitasi universal?",
+                    "content": [
+                        "Isaac Newton",
+                        "Albert Einstein",
+                        "Galileo Galilei",
+                        "Nikola Tesla"
+                    ],
+                    "correct": 0
+                }
+            ]
+        }
+    ]
+}

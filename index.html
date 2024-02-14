@@ -1,91 +1,173 @@
 <!DOCTYPE html>
 <html>
-<head>
-<!-- Author: https://gibrain.wordpress.com-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <head>
+        <!-- Author: https://gibrain.wordpress.com-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-<style>
-    .btn {
-        white-space: normal;
-        font-size: fit-content;
-    }
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <style>
+.btn {
+    white-space: normal;
+    font-size: fit-content;
+}
 
-    .progress-bar-custom {
-      background: linear-gradient(to right, #b8e994, #2ecc71);
-</style>
+            .progress-bar-custom {
+                background: linear-gradient(to right, #b8e994, #2ecc71);
+        </style>
 
-</head>
-<body>
-    <div class="container mt-5">
-        <div class="progress mb-3">
-            <!--<div id="progress-bar" class="progress-bar bg-success" style="width: 0%"></div>-->
+    </head>
+    <body>
 
-    <div id="progress-bar" class="progress-bar progress-bar-striped progress-bar-animated progress-bar-custom" role="progressbar" style="width: 6.67%;" aria-valuenow="6.67" aria-valuemin="0" aria-valuemax="100"></div>
+        <audio id="background" src='sound/background.mp3'></audio>
+        <audio id="right" src='sound/right.mp3'></audio>
+        <audio id="wrong" src='sound/wrong.mp3'></audio>
+        <audio id="win" src='sound/win.ogg'></audio>
+
+        <div class="container mt-5">
+            <div class="progress mb-3">
+                <div id="progress-bar" class="progress-bar progress-bar-striped progress-bar-animated progress-bar-custom" role="progressbar" style="width: 6.67%;" aria-valuenow="6.67" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div id="labels" class="d-flex justify-content-between mb-3">
+                <!-- Labels will be added here -->
+            </div>
+            <div class="mb-3">
+                <button id="fifty" class="btn btn-primary"><i class="fas fa-adjust"></i></button>
+                <button id="phone" class="btn btn-primary"><i class="fas fa-phone"></i></button>
+                <button id="ask" class="btn btn-primary"><i class="fas fa-users"></i></button>
+            </div>
+            <div id="question" class="mb-3 font-weight-bold"></div>
+            <div id="options" class="row fixed-bottom pb-3 bg-white">
+                <!-- Options will be added here -->
+            </div>
         </div>
-        <div id="labels" class="d-flex justify-content-between mb-3">
-            <!-- Labels will be added here -->
-        </div>
-        <div id="question" class="mb-3 font-weight-bold"></div>
-        <div id="options" class="row fixed-bottom pb-3 bg-white">
-            <!-- Options will be added here -->
-        </div>
-    </div>
-    <script>
-        // Add labels below the progress bar
-        for (let i = 1; i <= 15; i++) {
-            $('#labels').append('<span>' + i + '</span>');
-        }
+        <script>
+            // Add labels below the progress bar
+            for (let i = 1; i <= 15; i++) {
+                $('#labels').append('<span>' + i + '</span>');
+            }
 
-        // Load the JSON data when the document is ready
-        $(document).ready(function() {
-            $.getJSON('dufan.json', function(data) {
-                let questionIndex = 0;
-                let questions = data.games[0].questions;
+// Load the JSON data when the document is ready
+$(document).ready(function() {
+    $.getJSON('dufan.json', function(data) {
+        let questionIndex = 0;
+        let questions = data.games[0].questions;
 
-                function loadQuestion() {
-                    let question = questions[questionIndex];
-                    $('#question').text(question.question);
-                    $('#options').empty();
-                    for (let i = 0; i < question.content.length; i++) {
+        function loadQuestion() {
+            let question = questions[questionIndex];
+            $('#question').text(question.question);
+            $('#options').empty();
+            for (let i = 0; i < question.content.length; i++) {
 
-            
-                        btn = `<div class="col-6"><button class="btn btn-primary btn-block mb-2"></button></div>`
-                        var option = $(btn)
+                var is_answer = 0
 
-                        $(".btn", option).text(question.content[i]);
+                is_answer = (i === question.correct) ? 1 : 0
 
-                        option.click(function() {
-                            if (i === question.correct) {
-                                moveProgressBar();
-                                questionIndex++;
-                                if (questionIndex < questions.length) {
-                                    loadQuestion();
-                                }
-                            }
-                        });
-                        $('#options').append(option);
+                btn = `<div class="col-6"><button class="answer btn btn-primary btn-block mb-2" id="opt-${i}" data-is-answer="${is_answer}"></button></div>`
+                var option = $(btn)
+
+                $(".btn", option).text(question.content[i]);
+
+                option.click(function() {
+
+                    if (i === question.correct) {
+                        moveProgressBar();
+
+                        // sound
+                        sound('background','pause')
+                        sound('right','play')
+
+                        questionIndex++;
+                        if (questionIndex < questions.length) {
+                            loadQuestion();
+                            setTimeout(function() {
+                                sound('background','play')
+                            }, 4000);
+                        } else {
+                            sound('background','stop')
+                            sound('win','play')
+                            win = true
+                            return
+                        }
+                    } else {
+                        
+                        // game over
+                        $('#progress-bar').css('width','100%').removeClass('progress-bar-custom').addClass('bg-danger')
+                        // sound
+                        sound('background','pause')
+                        sound('wrong','play')
+                        sound('background','stop')
+
                     }
-                }
+                });
+                $('#options').append(option);
 
-                loadQuestion();
-            });
-        });
-
-        // Move the progress bar when a button is clicked
-        function moveProgressBar() {
-            let progressBar = $('#progress-bar');
-            let width = progressBar.width();
-            let parentWidth = progressBar.parent().width();
-            let percent = (width / parentWidth) * 100;
-
-            // Increase the progress by 6.67% (100% divided by 15 steps)
-            percent += 6.67;
-            progressBar.css('width', percent + '%');
-
+            }
         }
-    </script>
-</body>
+
+        loadQuestion();
+
+    });
+});
+
+// Move the progress bar when a button is clicked
+function moveProgressBar() {
+    let progressBar = $('#progress-bar');
+    let width = progressBar.width();
+    let parentWidth = progressBar.parent().width();
+    let percent = (width / parentWidth) * 100;
+
+    // Increase the progress by 6.67% (100% divided by 15 steps)
+    percent += 6.67;
+    progressBar.css('width', percent + '%');
+
+}
+
+$('#fifty').click(function() {
+    $('.answer').each(function(e) {
+        if ($(this).data('is-answer') === '1') 
+        {
+            $(this).attr('disabled','disabled')
+        }        
+    })
+})
+
+startSound = function(id, loop) {
+    soundHandle = document.getElementById(id);
+    if(loop)
+        soundHandle.setAttribute('loop', loop);
+    soundHandle.play();
+}
+
+function sound(id, control) {
+
+    // Get the audio element by id
+    var audio = document.getElementById(id);
+
+    // Check the control parameter and perform the corresponding action
+    switch(control) {
+        case 'play':
+            // Play the audio
+            audio.play();
+            break;
+        case 'pause':
+            // Pause the audio
+            audio.pause();
+            break;
+        default:
+            console.log('Invalid control command');
+    }
+}
+
+$(document).ready(function() {
+    var win = false
+    if (win == false) {
+        startSound('background', true)
+    }
+})
+
+        </script>
+    </body>
 </html>

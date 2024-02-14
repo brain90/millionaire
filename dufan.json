@@ -1,0 +1,159 @@
+{
+    "games" : [
+        {
+            "questions": [
+                {
+                    "question": "Dunia Fantasi adalah sebuah taman hiburan yang terletak di kawasan apa?",
+                    "content": [
+                        "Jakarta Utara",
+                        "Jakarta Selatan",
+                        "Bandung",
+                        "Semarang"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Salah satu maskot Dunia Fantasi berbentuk seperti apa?",
+                    "content": [
+                        "Badut",
+                        "Kuda",
+                        "Kera",
+                        "Gajah"
+                    ],
+                    "correct": 2
+                },
+                {
+                    "question": "Siapa yang mendesain karakter kera bekantan untuk Dunia Fantasi?",
+                    "content": [
+                        "Matari Advertising",
+                        "BenDufa",
+                        "Agustinus Teddy Darmanto",
+                        "Sutisna"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Wahana apa yang mengajak pengunjung merasakan sensasi berkeliling dunia?",
+                    "content": [
+                        "Istana Boneka",
+                        "Kereta Misteri",
+                        "Turangga-Rangga",
+                        "Tornado"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Selain wahana dan pertunjukan, apa saja fasilitas yang tersedia di Dunia Fantasi?",
+                    "content": [
+                        "Restoran, toko merchandise, dan arcade games",
+                        "Panti pijat, salon kecantikan, dan spa",
+                        "Bioskop, teater, dan museum",
+                        "Rumah sakit, klinik, dan apotek"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Tahun berapakah panggung pertunjukan Marunda dibongkar?",
+                    "content": [
+                        "2010",
+                        "2015",
+                        "2019",
+                        "2023"
+                    ],
+                    "correct": 2
+                },
+                {
+                    "question": "Wahana apa yang mengajak pengunjung memecahkan teka-teki di rumah tua?",
+                    "content": [
+                        "Rumah Riana",
+                        "Kereta Misteri",
+                        "Istana Boneka",
+                        "Rango-Rango"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Wahana apa yang berbentuk seperti poci dan dapat diputar oleh pengunjung?",
+                    "content": [
+                        "Poci-Poci",
+                        "Baling-Baling",
+                        "Kombi",
+                        "Halilintar"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Wahana apa yang menceritakan pengunjung kabur dari manusia serigala?",
+                    "content": [
+                        "Kereta Misteri",
+                        "Rumah Riana",
+                        "Niagara-Gara",
+                        "Tornado"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Apa yang menjadi kekurangan wahana Kereta Misteri?",
+                    "content": [
+                        "Kurangnya wahana air",
+                        "Kurangnya cerita yang menarik",
+                        "Kurangnya wahana edukasi",
+                        "Kurangnya wahana permainan anak"
+                    ],
+                    "correct": 1
+                },
+                {
+                    "question": "Berapa lagu yang terdapat di wahana Istana Boneka?",
+                    "content": [
+                        "18",
+                        "50",
+                        "100",
+                        "200"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Wahana apa yang mengajak pengunjung naik rollercoaster berputar-putar?",
+                    "content": [
+                        "Alap-Alap",
+                        "Tornado",
+                        "Kereta Misteri",
+                        "Halilintar"
+                    ],
+                    "correct": 3
+                },
+                {
+                    "question": "Tahun berapakah wahana Tornado dibuka?",
+                    "content": [
+                        "2007",
+                        "2005",
+                        "2010",
+                        "2015"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Wahana apa yang dipindahkan ke Ocean Dream Samudra pada tahun 2007?",
+                    "content": [
+                        "Balloon Race",
+                        "Kicir-Kicir",
+                        "Tembak Jitu",
+                        "Jungkang-Jungking"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Komunitas dufan paling keren di internet adalah ?",
+                    "content": [
+                        "Prediksi",
+                        "Romusha",
+                        "Jinny Oh Jinny",
+                        "Sobat Dufan"
+                    ],
+                    "correct": 3
+                }
+
+            ]
+        }
+    ]
+}

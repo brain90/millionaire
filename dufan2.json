@@ -1,0 +1,108 @@
+{
+    "games" : [
+        {
+            "questions": [
+                {
+                    "question": "Apa nama lengkap taman hiburan yang terletak di kawasan Taman Impian Ancol, Jakarta Utara, Indonesia?",
+                    "content": [
+                        "Dunia Fantasi (Dufan)",
+                        "Fantasi Hikayat",
+                        "Taman Impian Ancol",
+                        "Ancol Dreamland"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Berapa luas area Dunia Fantasi?",
+                    "content": [
+                        "21 Hektar",
+                        "10 Hektar",
+                        "34 Hektar",
+                        "50 Hektar"
+                    ],
+                    "correct": 2
+                },
+                {
+                    "question": "Apa nama maskot Dunia Fantasi yang berupa kera bekantan?",
+                    "content": [
+                        "Dufan",
+                        "Dufi",
+                        "Kabul",
+                        "Bije"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Berapa jumlah total wahana di Dunia Fantasi?",
+                    "content": [
+                        "34 Wahana",
+                        "40 Wahana",
+                        "28 Wahana",
+                        "50 Wahana"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Apa nama wahana roller coaster di Dunia Fantasi?",
+                    "content": [
+                        "Halilintar",
+                        "Alap Alap",
+                        "Kereta Misteri",
+                        "Niagara-Gara"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Apa nama wahana air di Dunia Fantasi?",
+                    "content": [
+                        "Niagara-Gara",
+                        "Arung Jeram",
+                        "Ice Age: Sid's Arctic Tours",
+                        "Turangga Rangga"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Apa nama pertunjukan di Dunia Fantasi yang versi Stufan?",
+                    "content": [
+                        "Dinoland",
+                        "Kampung Durian Runtuh",
+                        "Upin Ipin",
+                        "Situs web"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Apa nama karakter yang merupakan tapir di Dunia Fantasi?",
+                    "content": [
+                        "Tanit",
+                        "Genit",
+                        "Cili",
+                        "Barus"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Apa nama karakter yang merupakan komodo di Dunia Fantasi?",
+                    "content": [
+                        "Kombi",
+                        "Gembira",
+                        "Cili",
+                        "Barus"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Apa nama karakter yang merupakan kancil di Dunia Fantasi?",
+                    "content": [
+                        "Cili",
+                        "Licik",
+                        "Barus",
+                        "Bije"
+                    ],
+                    "correct": 0
+                }
+            ]
+        }
+    ]
+}
