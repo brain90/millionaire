@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <style>
+    .progress-bar-custom {
+      background: linear-gradient(to right, #b8e994, #2ecc71);
+    }
+  </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="progress mb-3">
+            <!--<div id="progress-bar" class="progress-bar bg-success" style="width: 0%"></div>-->
+    <div id="progress-bar" class="progress-bar progress-bar-striped progress-bar-animated progress-bar-custom" role="progressbar" style="width: 6.67%;" aria-valuenow="6.67" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <div id="labels" class="d-flex justify-content-between mb-3">
+            <!-- Labels will be added here -->
+        </div>
+        <div class="mb-3">
+            <button class="btn btn-primary">50:50</button>
+            <button class="btn btn-primary">PA</button>
+            <button class="btn btn-primary">AA</button>
+        </div>
+        <div class="mb-3 font-weight-bold">
+            Respon yang harus kita keluarkan saat tertimpa musibah adalah?
+        </div>
+        <div class="row fixed-bottom pb-3 bg-white">
+            <div class="col-6">
+                <button class="btn btn-primary btn-block mb-2" onclick="moveProgressBar()">A. SABAR</button>
+            </div>
+            <div class="col-6">
+                <button class="btn btn-primary btn-block mb-2" onclick="moveProgressBar()">B. MARAH</button>
+            </div>
+            <div class="col-6">
+                <button class="btn btn-primary btn-block mb-2" onclick="moveProgressBar()">C. CERIA</button>
+            </div>
+            <div class="col-6">
+                <button class="btn btn-primary btn-block mb-2" onclick="moveProgressBar()">D. SOMBONG</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Add labels below the progress bar
+        for (let i = 1; i <= 15; i++) {
+            $('#labels').append('<span>' + i + '</span>');
+        }
+
+        // Move the progress bar when a button is clicked
+        function moveProgressBar() {
+            let progressBar = $('#progress-bar');
+            let width = progressBar.width();
+            let parentWidth = progressBar.parent().width();
+            let percent = (width / parentWidth) * 100;
+
+            // Increase the progress by 6.67% (100% divided by 15 steps)
+            percent += 6.67;
+            progressBar.css('width', percent + '%');
+
+        }
+    </script>
+</body>
+</html>
