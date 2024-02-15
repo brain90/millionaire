@@ -1,3 +1,13 @@
+.list-group-item {
+    font-size: larger;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.alert {
+    font-size: larger;
+}
+
 .btn {
     white-space: normal;
     font-size: fit-content;
@@ -5,6 +15,7 @@
 
 .progress-bar-custom {
     background: linear-gradient(to right, #b8e994, #2ecc71);
+
 }
 
 .firework {
@@ -13,7 +24,6 @@
     height: 10px;
     border-radius: 50%;
     animation: fireworks 1s ease-in-out infinite alternate;
-    z-index: 999;
 }
 
 @keyframes fireworks {
@@ -46,3 +56,4 @@
     color: #fff;
     z-index: 999;
 }
+

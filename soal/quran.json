@@ -1,0 +1,159 @@
+{
+    "games" : [
+    {
+        "questions": 
+            [
+            {
+                "question": "Surah apa yang pertama kali diturunkan?",
+                    "content": [
+                        "Al-Fatiha",
+                    "Al-Baqarah",
+                    "Iqra",
+                    "An-Nas"
+                    ],
+                    "correct": 2
+            },
+            {
+                "question": "Surah apa yang terakhir kali diturunkan?",
+                "content": [
+                    "Al-Fatiha",
+                "Al-Baqarah",
+                "Al-Ikhlas",
+                "An-Nas"
+                ],
+                "correct": 3
+            },
+            {
+                "question": "Berapa jumlah surah dalam Juz Amma?",
+                "content": [
+                    "37",
+                "38",
+                "39",
+                "40"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Surah apa yang berisi tentang peristiwa Isra Mi'raj?",
+                "content": [
+                    "Al-Isra",
+                "Al-Kahf",
+                "Al-Fajr",
+                "Al-Dhuha"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Surah apa yang berisi tentang peristiwa hijrah Nabi Muhammad SAW?",
+                "content": [
+                    "Al-Hijr",
+                "Al-Hijrah",
+                "Al-Isra",
+                "Al-Kahf"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Surah apa yang berisi tentang kisah Nabi Yusuf AS?",
+                "content": [
+                    "Yusuf",
+                "Yasin",
+                "Al-Baqarah",
+                "Al-Imran"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Surah apa yang berisi tentang kisah Nabi Musa AS dan Firaun?",
+                "content": [
+                    "Al-Kahf",
+                "Al-Isra",
+                "Al-Baqarah",
+                "Taha"
+                ],
+                "correct": 3
+            },
+            {
+                "question": "Surah apa yang berisi tentang kisah Nabi Ibrahim AS dan patung-patung?",
+                "content": [
+                    "Al-Baqarah",
+                "Al-Isra",
+                "Al-Anbiya",
+                "Al-Hajj"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Surah apa yang berisi tentang kisah Nabi Nuh AS dan banjir besar?",
+                "content": [
+                    "Al-Baqarah",
+                "Nuh",
+                "Al-Isra",
+                "Al-Kahf"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Surah apa yang berisi tentang kisah Nabi Luth AS dan kaumnya?",
+                "content": [
+                    "Al-Baqarah",
+                "Al-Isra",
+                "Al-Anbiya",
+                "Al-Hajj"
+                ],
+                "correct": 3
+            },
+            {
+                "question": "Surah apa yang berisi tentang kisah Nabi Yunus AS dan perut ikan?",
+                "content": [
+                    "Yunus",
+                "Al-Baqarah",
+                "Al-Isra",
+                "Al-Kahf"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Surah apa yang berisi tentang kisah Nabi Sulaiman AS dan ratu Saba'?",
+                "content": [
+                    "Al-Baqarah",
+                "Al-Isra",
+                "Al-Kahf",
+                "An-Naml"
+                ],
+                "correct": 3
+            },
+            {
+                "question": "Surah apa yang berisi tentang kisah Nabi Daud AS dan Zabur?",
+                "content": [
+                    "Al-Baqarah",
+                "Al-Isra",
+                "Sad",
+                "Al-Kahf"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Surah apa yang berisi tentang kisah Nabi Isa AS dan kelahirannya?",
+                "content": [
+                    "Al-Baqarah",
+                "Al-Isra",
+                "Maryam",
+                "Al-Kahf"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Surah apa yang berisi tentang kisah Nabi Adam AS dan Hawa?",
+                "content": [
+                    "Al-Baqarah",
+                "Al-Isra",
+                "Al-Kahf",
+                "Al-Hijr"
+                ],
+                "correct": 0
+            }
+        ]
+    }
+    ]
+}

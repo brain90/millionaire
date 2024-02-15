@@ -1,0 +1,158 @@
+{
+    "games" : [
+    {
+        "questions": [
+        {
+            "question": "Apa nama taman hiburan terbesar di dunia?",
+                "content": [
+                    "Disneyland",
+                "Universal Studios",
+                "Six Flags",
+                "Legoland"
+                ],
+                "correct": 0
+        },
+        {
+            "question": "Di mana lokasi asli Disneyland?",
+            "content": [
+                "Paris, Perancis",
+            "Orlando, Amerika Serikat",
+            "Anaheim, Amerika Serikat",
+            "Tokyo, Jepang"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Apa nama taman hiburan yang terkenal dengan roller coaster-nya?",
+            "content": [
+                "Disneyland",
+            "Universal Studios",
+            "Six Flags",
+            "Legoland"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Apa nama taman hiburan yang berfokus pada film dan hiburan?",
+            "content": [
+                "Disneyland",
+            "Universal Studios",
+            "Six Flags",
+            "Legoland"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Apa nama taman hiburan yang berfokus pada mainan Lego?",
+            "content": [
+                "Disneyland",
+            "Universal Studios",
+            "Six Flags",
+            "Legoland"
+            ],
+            "correct": 3
+        },
+        {
+            "question": "Apa nama wahana yang biasanya ada di setiap taman hiburan?",
+            "content": [
+                "Roller Coaster",
+            "Roda Gila",
+            "Kincir Angin",
+            "Semua di atas"
+            ],
+            "correct": 3
+        },
+        {
+            "question": "Apa yang biasanya menjadi pertimbangan dalam mendesain taman hiburan?",
+            "content": [
+                "Keamanan",
+            "Hiburan",
+            "Kenyamanan",
+            "Semua di atas"
+            ],
+            "correct": 3
+        },
+        {
+            "question": "Apa yang biasanya menjadi tema utama dalam mendesain taman hiburan?",
+            "content": [
+                "Film",
+            "Karakter Kartun",
+            "Cerita Rakyat",
+            "Semua di atas"
+            ],
+            "correct": 3
+        },
+        {
+            "question": "Apa yang biasanya menjadi tujuan utama pengunjung taman hiburan?",
+            "content": [
+                "Belanja",
+            "Makan",
+            "Hiburan",
+            "Semua di atas"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Apa yang biasanya menjadi daya tarik utama taman hiburan?",
+            "content": [
+                "Wahana",
+            "Restoran",
+            "Toko Souvenir",
+            "Semua di atas"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Apa yang biasanya menjadi tantangan dalam mendesain taman hiburan?",
+            "content": [
+                "Keamanan",
+            "Pengalaman Pengunjung",
+            "Biaya Operasional",
+            "Semua di atas"
+            ],
+            "correct": 3
+        },
+        {
+            "question": "Apa yang biasanya menjadi pertimbangan dalam memilih lokasi taman hiburan?",
+            "content": [
+                "Aksesibilitas",
+            "Ukuran Lahan",
+            "Ketersediaan Infrastruktur",
+            "Semua di atas"
+            ],
+            "correct": 3
+        },
+        {
+            "question": "Apa yang biasanya menjadi pertimbangan dalam memilih tema taman hiburan?",
+            "content": [
+                "Demografi Pengunjung",
+            "Tren Hiburan",
+            "Biaya Pembuatan",
+            "Semua di atas"
+            ],
+            "correct": 3
+        },
+        {
+            "question": "Apa yang biasanya menjadi pertimbangan dalam memilih wahana taman hiburan?",
+            "content": [
+                "Keamanan",
+            "Hiburan",
+            "Kapasitas",
+            "Semua di atas"
+            ],
+            "correct": 3
+        },
+        {
+            "question": "Apa yang biasanya menjadi pertimbangan dalam memilih restoran di taman hiburan?",
+            "content": [
+                "Menu",
+            "Harga",
+            "Kapasitas",
+            "Semua di atas"
+            ],
+            "correct": 3
+        }
+        ]
+    }
+    ]
+}
