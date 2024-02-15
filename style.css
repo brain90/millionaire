@@ -1,0 +1,48 @@
+.btn {
+    white-space: normal;
+    font-size: fit-content;
+}
+
+.progress-bar-custom {
+    background: linear-gradient(to right, #b8e994, #2ecc71);
+}
+
+.firework {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: fireworks 1s ease-in-out infinite alternate;
+    z-index: 999;
+}
+
+@keyframes fireworks {
+    0% {
+        transform: scale(1);
+        background-color: #ff5733;
+    }
+    25% {
+        background-color: #ffc300;
+    }
+    50% {
+        background-color: #2ecc71;
+    }
+    75% {
+        background-color: #3498db;
+    }
+    100% {
+        transform: scale(2);
+        background-color: transparent;
+    }
+}
+
+.message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Pacifico', cursive;
+    font-size: 48px;
+    color: #fff;
+    z-index: 999;
+}

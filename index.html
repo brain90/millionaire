@@ -9,6 +9,8 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
         <style>
 .btn {
     white-space: normal;
@@ -17,6 +19,48 @@
 
             .progress-bar-custom {
                 background: linear-gradient(to right, #b8e994, #2ecc71);
+
+            }
+
+    .firework {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        animation: fireworks 1s ease-in-out infinite alternate;
+    }
+
+    @keyframes fireworks {
+        0% {
+            transform: scale(1);
+            background-color: #ff5733;
+        }
+        25% {
+            background-color: #ffc300;
+        }
+        50% {
+            background-color: #2ecc71;
+        }
+        75% {
+            background-color: #3498db;
+        }
+        100% {
+            transform: scale(2);
+            background-color: transparent;
+        }
+    }
+
+    .message {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Pacifico', cursive;
+        font-size: 48px;
+        color: #fff;
+        z-index: 999;
+    }
+
         </style>
 
     </head>
@@ -27,7 +71,7 @@
         <audio id="wrong" src='sound/wrong.mp3'></audio>
         <audio id="win" src='sound/win.ogg'></audio>
 
-        <div class="container mt-5">
+        <div class="container mt-5" id="games">
             <div class="progress mb-3">
                 <div id="progress-bar" class="progress-bar progress-bar-striped progress-bar-animated progress-bar-custom" role="progressbar" style="width: 6.67%;" aria-valuenow="6.67" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
@@ -82,14 +126,15 @@ $(document).ready(function() {
 
                         questionIndex++;
                         if (questionIndex < questions.length) {
+                        //if (questionIndex < 1) {
                             loadQuestion();
                             setTimeout(function() {
                                 sound('background','play')
                             }, 4000);
                         } else {
-                            sound('background','stop')
+                            $('#background').remove()
                             sound('win','play')
-                            win = true
+                            menang()
                             return
                         }
                     } else {
@@ -99,7 +144,6 @@ $(document).ready(function() {
                         // sound
                         sound('background','pause')
                         sound('wrong','play')
-                        sound('background','stop')
 
                         // hint the correct answer
                         $('.answer').each(function(e) {
@@ -175,12 +219,50 @@ function sound(id, control) {
 }
 
 $(document).ready(function() {
-    var win = false
-    if (win == false) {
-        startSound('background', true)
-    }
+    startSound('background', true)
 })
 
+function createFirework() {
+        const colors = ['#ff5733', '#ffc300', '#2ecc71', '#3498db'];
+        const firework = document.createElement('div');
+        firework.classList.add('firework');
+        firework.style.left = Math.random() * window.innerWidth + 'px';
+        firework.style.top = Math.random() * window.innerHeight + 'px';
+        firework.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+        document.body.appendChild(firework);
+        setTimeout(() => {
+            firework.remove();
+        }, 1000);
+    }
+
+function menang() {
+    $('#games').hide()
+    $('body').css('background-color', '#000').css('overflow', 'hidden');
+    $('.message').text(selamat())
+    $('#menang').show()
+    setInterval(createFirework, 500);
+}
+
+function selamat() {
+const praises = [
+    "Hebat!",
+    "Luar Biasa!",
+    "Keren!",
+    "Pintar!",
+    "Brilian!",
+    "Fantastis!",
+    "Sempurna!",
+    "Menakjubkan!",
+    "Mengagumkan!",
+    "Cemerlang!"
+];
+return praises[Math.floor(Math.random() * praises.length)]
+}
         </script>
+
+<div class="container" style="display: none;" id="menang">
+    <div class="message">Selamat Anda Menang!</div>
+</div>
+
     </body>
 </html>

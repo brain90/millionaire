@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Game</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="background" src='sound/background.mp3'></audio>
+    <audio id="right" src='sound/right.mp3'></audio>
+    <audio id="wrong" src='sound/wrong.mp3'></audio>
+    <audio id="win" src='sound/win.ogg'></audio>
+
+    <div class="container mt-5" id="games">
+        <div class="progress mb-3">
+            <div id="progress-bar" class="progress-bar progress-bar-striped progress-bar-animated progress-bar-custom" role="progressbar" style="width: 6.67%;" aria-valuenow="6.67" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <div id="labels" class="d-flex justify-content-between mb-3">
+            <!-- Labels will be added here -->
+        </div>
+        <div class="mb-3">
+            <button id="fifty" class="btn btn-primary"><i class="fas fa-adjust"></i></button>
+            <button id="phone" class="btn btn-primary"><i class="fas fa-phone"></i></button>
+            <button id="ask" class="btn btn-primary"><i class="fas fa-users"></i></button>
+        </div>
+        <div id="question" class="mb-3 font-weight-bold"></div>
+        <div id="options" class="row fixed-bottom pb-3 bg-white">
+            <!-- Options will be added here -->
+        </div>
+    </div>
+
+    <div class="container" style="display: none;" id="menang">
+        <div class="message">Selamat Anda Menang!</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
