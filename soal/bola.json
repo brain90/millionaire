@@ -1,0 +1,158 @@
+{
+    "games" : [
+        {
+            "questions": [
+                {
+                    "question": "Siapa pemain sepak bola yang dikenal sebagai 'Hand of God'?",
+                    "content": [
+                        "Diego Maradona",
+                        "Lionel Messi",
+                        "Cristiano Ronaldo",
+                        "Pele"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Negara mana yang memenangkan Piala Dunia FIFA 2018?",
+                    "content": [
+                        "Brasil",
+                        "Argentina",
+                        "Perancis",
+                        "Jerman"
+                    ],
+                    "correct": 2
+                },
+                {
+                    "question": "Berapa jumlah pemain dalam satu tim sepak bola di lapangan (tidak termasuk cadangan)?",
+                    "content": [
+                        "11",
+                        "10",
+                        "9",
+                        "12"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Siapa pemain sepak bola yang memenangkan Ballon d'Or 2020?",
+                    "content": [
+                        "Lionel Messi",
+                        "Cristiano Ronaldo",
+                        "Robert Lewandowski",
+                        "Neymar"
+                    ],
+                    "correct": 2
+                },
+                {
+                    "question": "Di negara mana Piala Dunia FIFA 2022 diselenggarakan?",
+                    "content": [
+                        "Qatar",
+                        "Rusia",
+                        "Brasil",
+                        "Afrika Selatan"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Siapa pelatih tim nasional sepak bola Inggris saat memenangkan Piala Dunia FIFA 1966?",
+                    "content": [
+                        "Bobby Charlton",
+                        "Alf Ramsey",
+                        "Gareth Southgate",
+                        "Bobby Robson"
+                    ],
+                    "correct": 1
+                },
+                {
+                    "question": "Klub sepak bola mana yang dikenal dengan julukan 'The Red Devils'?",
+                    "content": [
+                        "Liverpool FC",
+                        "Manchester United FC",
+                        "Arsenal FC",
+                        "Chelsea FC"
+                    ],
+                    "correct": 1
+                },
+                {
+                    "question": "Siapa pemain sepak bola yang mencetak gol terbanyak dalam sejarah Piala Dunia FIFA?",
+                    "content": [
+                        "Miroslav Klose",
+                        "Ronaldo",
+                        "Pele",
+                        "Diego Maradona"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Di negara mana Lionel Messi lahir?",
+                    "content": [
+                        "Spanyol",
+                        "Argentina",
+                        "Portugal",
+                        "Brasil"
+                    ],
+                    "correct": 1
+                },
+                {
+                    "question": "Siapa pemain sepak bola yang memenangkan Golden Boot Piala Dunia FIFA 2018?",
+                    "content": [
+                        "Kylian Mbappe",
+                        "Luka Modric",
+                        "Harry Kane",
+                        "Antoine Griezmann"
+                    ],
+                    "correct": 2
+                },
+                {
+                    "question": "Klub sepak bola mana yang memenangkan Liga Champions UEFA 2020?",
+                    "content": [
+                        "Bayern Munich",
+                        "Paris Saint-Germain",
+                        "Liverpool FC",
+                        "Real Madrid"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Siapa pemain sepak bola yang memenangkan Golden Foot 2020?",
+                    "content": [
+                        "Cristiano Ronaldo",
+                        "Lionel Messi",
+                        "Robert Lewandowski",
+                        "Neymar"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Berapa durasi waktu normal dalam satu pertandingan sepak bola?",
+                    "content": [
+                        "60 menit",
+                        "80 menit",
+                        "90 menit",
+                        "120 menit"
+                    ],
+                    "correct": 2
+                },
+                {
+                    "question": "Siapa pemain sepak bola yang memenangkan Golden Glove Piala Dunia FIFA 2018?",
+                    "content": [
+                        "Hugo Lloris",
+                        "Thibaut Courtois",
+                        "Jordan Pickford",
+                        "Manuel Neuer"
+                    ],
+                    "correct": 1
+                },
+                {
+                    "question": "Di negara mana Cristiano Ronaldo lahir?",
+                    "content": [
+                        "Spanyol",
+                        "Argentina",
+                        "Portugal",
+                        "Brasil"
+                    ],
+                    "correct": 2
+                }
+            ]
+        }
+    ]
+}

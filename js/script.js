@@ -10,7 +10,7 @@ function play_game(tema) {
     startSound('background', true)
     $('#games').show()
 
-    $.getJSON('/soal/' + tema + '.json', function(data) {
+    $.getJSON('soal/' + tema + '.json', function(data) {
         let questionIndex = 0;
         let questions = data.games[0].questions;
 
@@ -134,7 +134,7 @@ function sound(id, control) {
 
 $(document).ready(function() {
 
-    const soal = [ "dufan-1", "dufan-2", "tsubasa", "umum-1", "world" , "taman-hiburan"];
+    const soal = ["bola", "dufan-1", "dufan-2", "tsubasa", "umum-1", "world" , "taman-hiburan"];
 
     var list = ""
     soal.forEach(tag => {
@@ -164,7 +164,9 @@ function createFirework() {
 function menang() {
     $('#games').hide()
     $('body').css('background-color', '#000').css('overflow', 'hidden');
-    $('.message').text(selamat())
+
+    var replay = '<button type="button" class="btn btn-success" id="replay" onclick="location.reload()">Main Lagi !</button>'
+    $('.message').html('').html(selamat() + '<br>' + replay)
     $('#menang').show()
     setInterval(createFirework, 500);
 }
@@ -185,4 +187,6 @@ function selamat() {
     return praises[Math.floor(Math.random() * praises.length)]
 }
 
-
+$('#replay').click(function() {
+    location.reload()
+})
