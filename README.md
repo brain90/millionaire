@@ -1,6 +1,4 @@
 # Millionaire
-Who wants to be a millionare to improve your knowledge in a fun way.
-
 So, like, this project was all about putting bing copilot and GPT-3.5 to the test. We started off by making wireframes using excalidraw, then used those as prompts to get HTML and CSS designs. From there, it was all about adding functions by asking copilot and GPT-3.5 for help, little by little. Lesson learned: you still gotta have some programming know-how. Treat GPT as your buddy, not some kind of magic genie.
 
 
