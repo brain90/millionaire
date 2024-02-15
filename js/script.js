@@ -1,8 +1,3 @@
-// Add labels below the progress bar
-for (let i = 1; i <= 15; i++) {
-    $('#labels').append('<span>' + i + '</span>');
-}
-
 // Load the JSON data when the document is ready
 
 function play_game(tema) {
@@ -146,6 +141,12 @@ $(document).ready(function() {
         $('#pilih_tema').hide()
         play_game( $(this).text() )
     });
+
+    // Add labels below the progress bar
+    for (let i = 1; i <= 15; i++) {
+        $('#labels').append('<span>' + i + '</span>');
+    }
+
 })
 
 function createFirework() {
