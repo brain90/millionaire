@@ -1,0 +1,158 @@
+{
+    "games" : [
+        {
+            "questions": [
+                {
+                    "question": "Siapa nama asli Captain Tsubasa?",
+                    "content": [
+                        "Tsubasa Oozora",
+                        "Kojiro Hyuga",
+                        "Genzo Wakabayashi",
+                        "Ryo Ishizaki"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Apa nama tim sepak bola yang diikuti Tsubasa saat masih di sekolah dasar?",
+                    "content": [
+                        "Nankatsu SC",
+                        "Toho Academy",
+                        "Musashi FC",
+                        "Furano FC"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Siapa sahabat terbaik Tsubasa di Nankatsu SC?",
+                    "content": [
+                        "Taro Misaki",
+                        "Kojiro Hyuga",
+                        "Genzo Wakabayashi",
+                        "Hikaru Matsuyama"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Apa teknik tendangan khas Tsubasa?",
+                    "content": [
+                        "Drive Shoot",
+                        "Tiger Shoot",
+                        "SGGK Catch",
+                        "Eagle Shot"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Di klub mana Tsubasa bermain setelah lulus dari sekolah menengah?",
+                    "content": [
+                        "FC Barcelona",
+                        "Bayern Munich",
+                        "Juventus",
+                        "Paris Saint-Germain"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Siapa pelatih Tsubasa di Nankatsu SC?",
+                    "content": [
+                        "Roberto Hongo",
+                        "Munemasa Katagiri",
+                        "Makoto Soda",
+                        "Ken Wakashimazu"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Siapa rival terbesar Tsubasa di Jepang?",
+                    "content": [
+                        "Kojiro Hyuga",
+                        "Genzo Wakabayashi",
+                        "Hikaru Matsuyama",
+                        "Jun Misugi"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Apa nama istri Tsubasa?",
+                    "content": [
+                        "Sanae Nakazawa",
+                        "Yayoi Aoba",
+                        "Maki Akamine",
+                        "Kaori Matsumoto"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Di negara mana Tsubasa bermain setelah meninggalkan Jepang?",
+                    "content": [
+                        "Brasil",
+                        "Spanyol",
+                        "Italia",
+                        "Jerman"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Apa nama teknik tendangan bebas khas Tsubasa dan Misaki?",
+                    "content": [
+                        "Twin Shoot",
+                        "Drive Shoot",
+                        "Tiger Shoot",
+                        "Eagle Shot"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Siapa penjaga gawang utama di Nankatsu SC?",
+                    "content": [
+                        "Genzo Wakabayashi",
+                        "Ken Wakashimazu",
+                        "Yuzo Morisaki",
+                        "Richard Tex Tex"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Apa nama turnamen sepak bola sekolah dasar yang diikuti Tsubasa dan teman-temannya?",
+                    "content": [
+                        "Turnamen Nasional Sekolah Dasar",
+                        "Liga Junior Jepang",
+                        "Piala Dunia Junior",
+                        "Liga Super Asia"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Siapa kapten tim Toho Academy yang merupakan rival Tsubasa?",
+                    "content": [
+                        "Kojiro Hyuga",
+                        "Genzo Wakabayashi",
+                        "Hikaru Matsuyama",
+                        "Jun Misugi"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Apa nama teknik dribbling khas Tsubasa?",
+                    "content": [
+                        "Drive Dribble",
+                        "Tiger Dribble",
+                        "Eagle Dribble",
+                        "Hawk Dribble"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Siapa karakter yang dikenal dengan julukan 'Kiper Super Great'?",
+                    "content": [
+                        "Genzo Wakabayashi",
+                        "Ken Wakashimazu",
+                        "Yuzo Morisaki",
+                        "Richard Tex Tex"
+                    ],
+                    "correct": 0
+                }
+            ]
+        }
+    ]
+}

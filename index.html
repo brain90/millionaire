@@ -2,6 +2,7 @@
 <html>
     <head>
         <!-- Author: https://gibrain.wordpress.com-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
@@ -51,7 +52,7 @@
 
 // Load the JSON data when the document is ready
 $(document).ready(function() {
-    $.getJSON('dufan.json', function(data) {
+    $.getJSON('tsubasa.json', function(data) {
         let questionIndex = 0;
         let questions = data.games[0].questions;
 
@@ -92,13 +93,25 @@ $(document).ready(function() {
                             return
                         }
                     } else {
-                        
+
                         // game over
                         $('#progress-bar').css('width','100%').removeClass('progress-bar-custom').addClass('bg-danger')
                         // sound
                         sound('background','pause')
                         sound('wrong','play')
                         sound('background','stop')
+
+                        // hint the correct answer
+                        $('.answer').each(function(e) {
+                            if ($(this).data('is-answer') == 1) 
+                            {
+                                $(this).removeClass('btn-primary').addClass('btn-success')
+                            }        
+                        })
+
+                        setTimeout(function() {
+                            location.reload()
+                        }, 3000);
 
                     }
                 });
