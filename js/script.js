@@ -1,5 +1,3 @@
-// Load the JSON data when the document is ready
-
 function play_game(tema) {
 
     startSound('background', true)
