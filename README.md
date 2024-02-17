@@ -13,7 +13,8 @@ So, like, this project was all about putting bing copilot and GPT-3.5 to the tes
 # Question generator
 Prompt Bing Copilot with your desired topic. Here's the prompt we used. Put the json into `soal` directories.
 
-<pre>Create 15 quiz question. A question with four multiple choices answer. topics: general knowledge. made output as formatted json below. Put right answer into "correct" element.
+<pre>Create 15 quiz question. A question with four multiple choices answer. topics: general knowledge. 
+    made output as formatted json below. Put right answer into "correct" element. write in bahasa indonesia.
 {
     "games": [
         {
